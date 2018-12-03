@@ -1,0 +1,21 @@
+/*
+@font-face {
+    font-family:museosans100;
+    src: url(https://valholl-prd.wowair.com/fonts/museo-sans/museosans-100-webfont.woff2);
+}
+
+*/
+body{
+    font-family: "Museo Sans";
+}
+
+main{
+    background: green;
+    width: 10em;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: .8em .8em 0 0;
+    padding-bottom: 1em;
+    margin: 1em;
+}
