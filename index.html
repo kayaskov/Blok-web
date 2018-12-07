@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<html>
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -14,32 +13,57 @@
         <h1>99 verhalen voor onderweg</h1>
     </header>
 
-    <form action="" method="get">
+    <button type="submit" id="zoeken_knop">Zelf zoeken</button>
+    <form id="form" action="" method="get">
 
-        <h2>Zelf Zoeken</h2>
 
-        <label for="">Leestijd</label>
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <br />
 
-        <label for="">Kleur</label>
-        <input type="color" id="head" name="head" value="#e66465">
-        <br />
+        <fieldset>
+            <label>Zelf Zoeken</label>
 
-        <label for="">Genre</label>
-        <select name="Genre">
-                <option value="thriller">Thriller</option>
-                <option value="thriller">Thriller</option>
-                <option value="thriller">Thriller</option>
-                <option value="thriller">Thriller</option>
-                <option value="thriller">Thriller</option>
-                <option value="thriller">Thriller</option>
-        </select>
-        <input type="submit" name="Toepassen">
+
+            <fieldset>
+                <label for="">Leestijd</label>
+                <input type="range" min="1" max="60" value="50" class="slider" id="myRange">
+            </fieldset>
+
+            <fieldset>
+                <label for="">Kleur</label>
+                <input type="checkbox" name="color" value="red">
+                <input type="checkbox" name="color" value="orange">
+                <input type="checkbox" name="color" value="yellow">
+                <input type="checkbox" name="color" value="brown">
+                <input type="checkbox" name="color" value="green">
+                <input type="checkbox" name="color" value="darkgreen">
+                <input type="checkbox" name="color" value="lila">
+                <input type="checkbox" name="color" value="purple">
+                <input type="checkbox" name="color" value="blue">
+                <input type="checkbox" name="color" value="lightblue">
+                <input type="checkbox" name="color" value="black">
+                <input type="checkbox" name="color" value="gray">
+                <input type="checkbox" name="color" value="white">
+            </fieldset>
+
+            <fieldset>
+                <label for="">Genre</label>
+                <select name="Genre">
+                    <option value="thriller">Thriller</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="thriller">Thriller</option>
+            </select>
+
+            </fieldset>
+            <input type="submit" name="Toepassen">
+        </fieldset>
     </form>
 
+
+
     <section>
-       <h6>Buttons</h6>
+        <h6>Buttons</h6>
         <ul>
             <li>
                 <img src="" alt="shuffle icon">
@@ -53,11 +77,11 @@
     </section>
 
     <main>
-        <h3>Jouw resultaten</h3>
+        <h2>Jouw resultaten</h2>
 
         <article>
             <header>
-                <img src="" alt="verhaal 1">
+                <img class="verhaal_afbeelding" src="images/Essentie.jpg" alt="verhaal 1">
                 <img src="" alt="leestijd icon">
                 <small>81 sec</small>
                 <img src="" alt="like icon">
@@ -68,14 +92,14 @@
         </article>
     </main>
 
-    <section>
+    <section class="categorie">
         <h3>Populair</h3>
     </section>
 
-    <section>
+    <section class="categorie">
         <h3>Suggesties</h3>
     </section>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

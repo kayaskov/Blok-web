@@ -7,15 +7,44 @@
 */
 body{
     font-family: "Museo Sans";
+    background: lightyellow;
 }
 
 main{
-    background: green;
-    width: 10em;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-    border-radius: .8em .8em 0 0;
-    padding-bottom: 1em;
-    margin: 1em;
+    background: lightpink;
+    width: 50%;
+}
+
+.categorie{
+    background: lightblue;
+}
+
+form{
+    display:none;
+
+}
+
+article{
+    background: lightgreen;
+    border-radius: 10px;
+}
+
+p{
+    border-radius: 20px;
+}
+
+#artikel_kop{
+    display:flex;
+    align-items: flex-end
+}
+
+#artikel_kop>h4{
+    display:flex;
+}
+.verhaal_afbeelding{
+    max-width: 100%;
+}
+
+#zoeken_knop{
+    display: inline-block;
 }
