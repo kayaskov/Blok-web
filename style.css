@@ -33,8 +33,13 @@ form{
 
 button{
     color:#9e1981;
-    font-size: .833em;
     border: none;
+    background-color: white;
+    width: 25%;
+}
+
+h1{
+
 }
 
 h2{
