@@ -65,7 +65,7 @@ article{
 }
 article>img{
     object-fit: cover;
-    height: 12em;
+    height: 24em;
     width: 100%;
 }
 
