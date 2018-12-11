@@ -21,6 +21,19 @@ body{
 
 main{
     width: 100%;
+    display:flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-scroll-snap-destination: 0% 0%;
+    -webkit-overflow-scrolling: touch;
+}
+main::-webkit-scrollbar {
+    display: none;
+}
+main h3 {
+    display:none;
 }
 
 .categorie{
@@ -76,6 +89,9 @@ article{
     background: #f9f9f9;
     margin: 0em 1em 1em 1em;
     border: .0625em solid #f1f1f1;
+    flex:  0 0 auto;
+    scroll-snap-align: center;
+    width: 40em;
 }
 article>img{
     object-fit: cover;
